@@ -1,0 +1,47 @@
+# Ignore Virtual Environment
+myenv/
+venv/
+ENV/
+
+# Ignore Python Cached Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignore IDE Settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Ignore Environment variables
+.env
+.env.local
+
+# Ignore Operating System Files
+.DS_Store
+Thumbs.db
+
+# Ignore Any Project Specific Files
+data/
+*.log
+.coverage
+htmlcov/
