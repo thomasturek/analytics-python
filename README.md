@@ -19,16 +19,16 @@ Dependencies are listed in requirements.txt
 
 1. Clone the repository with
 
-git clone [your-repository-url]
-cd ANALYTICS-PYTHON
+git clone [(https://github.com/thomasturek/analytics-python)]
+cd analytics-python
 
 2. Create and activate a virtual enviroment with
 
-### Windows
+#### Windows
 python -m venv myenv
 myenv\Scripts\activate
 
-### Unix/MacOS
+#### Unix/MacOS
 python -m venv myenv
 source myenv/bin/activate
 
@@ -40,10 +40,10 @@ pip install -r requirements.txt
 
 1. Activate your virtual enviroment with
 
-### Windows
+#### Windows
 myenv\Scripts\activate
 
-### Unix/MacOS
+#### Unix/MacOS
 source myenv/bin/activate
 
 2. Run the main analysis and fetch TVL with
@@ -52,13 +52,12 @@ python main.py
 
 ## Libraries Used
 
-ethers - for blockchain interaction
-pytorch - for predictive analytics
-any additional libraries listed in requirements.txt
+ethers for blockchain interaction and pytorch - for predictive analytics, any additional libraries listed in requirements.txt
 
 ## Authors
 
 Tomáš Turek
+Illya Artemenko
 
 
 
